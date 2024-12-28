@@ -1,27 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import List1 from './list1.tsx';
+// import List2 from './list2.tsx';
+import List3 from './list3.tsx';
+import ImmerDemo from './immerDemo.tsx';
 
 function App() {
-  const a = 10
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    {/* <List1 /> */}
+    {/* <List2 /> */}
+    <List3 />
+    <ImmerDemo />
+    </>
+  )
 }
 
 export default App;
